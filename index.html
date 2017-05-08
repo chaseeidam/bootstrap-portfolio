@@ -5,40 +5,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>About | Chase Eidam</title>
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
   </head>
   <body>
-    <header id="masthead">
-      <div class="container">
-        <a href="index.html" id="logo">Chase Eidam</a>
-        <nav>
-          <a href="index.html">About</a>
-          <a href="portfolio.html">Portfolio</a>
-          <a href="contact.html">Contact</a>
-        </nav>
-      </div>
-    </header>
-    <div id="main-container" class="container">
-      <section class="main-section">
-        <h1>About Me</h1>
-        <img src="assets/images/tiger.jpg" class="auth-image" alt="tiger">
-        <p>Marshmallow jelly souffl&eacute; pastry biscuit gummi bears tootsie roll tootsie roll gingerbread. Cotton candy muffin gingerbread fruitcake. Sweet roll souffl&eacute; topping wafer croissant oat cake gummi&nbsp;bears.</p>
-        <p>Jelly-o cheesecake dessert fruitcake ice cream brownie liquorice souffl&eacute;. Caramels biscuit gummi bears tiramisu chupa chups. Croissant macaroon cotton candy cake pudding.</p>
-      </section>
-      <section class="sidebar">
-        <div id="connect">
-          <h2>Connect with Me</h2>
-          <a href="https://github.com/chaseeidam"><img src="assets/images/github-128.png" class="social" alt="GitHub" /></a>
-          <a href="https://www.linkedin.com/in/chase-eidam-7b5985138/"><img src="assets/images/linkedin-128.png" class="social" alt="LinkedIn" /></a>
-          <a href="https://stackoverflow.com/users/7798455/ceidam"><img src="assets/images/stackoverflow-128.png" class="social" alt="Stack Overflow" /></a>
-          
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">Chase Eidam</a>
         </div>
-      </section>
-    </div>
-    <footer>
-      <div class="container">
-        Copyright &copy; 2017 Chase Eidam
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#">About</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
       </div>
-    </footer>
-  </body>
-</html>
+      <!--/.container-fluid -->
+    </nav>
+    <!-- Main Body goes in Container -->
+    <div class="container">
+      <div class="col-md-8">
+
+        <div class="row">
+          <!-- The content in this div gets wrapped in a panel -->
+          <div class="panel panel-default">
+            <div class="panel-body">
+              <h1>About Me</h1>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-3">
+            <img class="img img-thumbnail" src="assets/images/tiger.jpg">
+          </div>
+          <div class="col-lg-9">
+            
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae cumque corporis quis sed, quod pariatur! Officia aut tempore repellendus, culpa inventore magnam accusamus nemo fugiat debitis voluptates ratione omnis, nobis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae cumque corporis quis sed, quod pariatur! Officia aut tempore repellendus, culpa inventore magnam accusamus nemo fugiat debitis voluptates ratione omnis, nobis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae cumque corporis quis sed, quod pariatur! Officia aut tempore repellendus, culpa inventore magnam accusamus nemo fugiat debitis voluptates ratione omnis, nobis.</p>
+            
+          </div>
+        </div>
+        
+        <div class="row">
+          <div class="col-md-4">
+            <section class="sidebar">
+              <div id="connect">
+                <h2>Connect with Me</h2>
+                <a href="https://github.com/chaseeidam"><img src="assets/images/github-128.png" class="social" alt="GitHub" /></a>
+                <a href="https://www.linkedin.com/in/chase-eidam-7b5985138/"><img src="assets/images/linkedin-128.png" class="social" alt="LinkedIn" /></a>
+                <a href="https://stackoverflow.com/users/7798455/ceidam"><img src="assets/images/stackoverflow-128.png" class="social" alt="Stack Overflow" /></a>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div class="container">
+          Copyright &copy; 2017 Chase Eidam
+        </div>
+      </footer>
+    </body>
+  </html>
